@@ -24,9 +24,9 @@ class Data_Processor:
 
 def main():
     transaction_data = pd.read_csv('var4.csv')
-    data_handler = Data_Processor(transaction_data)
-    data_handler.type_of_payment()
-    ~data_handler
+    data_processing = Data_Processor(transaction_data)
+    data_processing.type_of_payment()
+    ~data_processing
 
 if __name__ == "__main__":
     main()
